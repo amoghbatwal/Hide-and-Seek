@@ -1,6 +1,6 @@
-### CSCI-B 551 Elements of Artificial Intelligence
+# CSCI-B 551 Elements of Artificial Intelligence
 
-# Hide-and-Seek
+### Hide-and-Seek
 
 Working: The map is loaded into the fringe which is checked on every iteration for the condition of consisting of the same number of friends on board as requested via arguments. To place a friend at any position, certain conditions need to be satisfied. So, only when these conditions are passed, F is placed on the position we are at. So, the main brain of the code is the function ‘conditionchecking’. In this function, there are 8 conditions which are checked with respect to my current position on the board. My code is checking if F can be placed in the row and then whether F can be placed in that column. Condition checks in order are: In row validation:
 
